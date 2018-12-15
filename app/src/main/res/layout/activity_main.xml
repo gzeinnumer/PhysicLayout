@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.jawnnypoo.physicslayout.PhysicsLinearLayout
+        android:id="@+id/physics_layout_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:physics="true"
+        app:gravityX="0.0"
+        app:gravityY="9.8"
+        app:bounds="true"
+        app:boundsSize="50dp">
+        <ImageView
+            android:id="@+id/image1"
+            android:src="@drawable/ic_favorite_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/image2"
+            android:src="@drawable/ic_favorite_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/image3"
+            android:src="@drawable/ic_favorite_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/image4"
+            android:src="@drawable/ic_favorite_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/image5"
+            android:src="@drawable/ic_favorite_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/image6"
+            android:src="@drawable/ic_favorite_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/image7"
+            android:src="@drawable/ic_favorite_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/image8"
+            android:src="@drawable/ic_favorite_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </com.jawnnypoo.physicslayout.PhysicsLinearLayout>
+
+</RelativeLayout>
